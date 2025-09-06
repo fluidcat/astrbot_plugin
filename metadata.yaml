@@ -2,4 +2,4 @@ name: message-forward
 desc: 消息连线转发插件，支持用户间连线和客服系统，提供完整的双向消息转发功能
 author: fluidcat
 version: v1.0.0
-repo: https://github.com/fluidcat/astrbot_plugin/tree/astrbot_plugin_message_forward
+repo: https://github.com/fluidcat/astrbot_plugin_message_forward

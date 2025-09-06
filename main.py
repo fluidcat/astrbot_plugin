@@ -474,6 +474,3 @@ class PersonSessionFilter(SessionFilter):
         sender_id = event.unified_msg_origin
         # 仅当事件来自该群时才返回有效的会话 ID，否则返回空串避免误触发
         return self.session_id if sender_id == self.session_id else ""
-
-# 插件入口点
-Main = UnifiedConnectionPlugin

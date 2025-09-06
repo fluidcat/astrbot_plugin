@@ -1,0 +1,112 @@
+{
+    "csr": {
+        "description": "人工客服人员配置"
+        ,"type": "object"
+        ,"hint": "配置不同消息平台的人工客服, 可以配置一个或多个, 默认使用系统配置的管理员"
+        ,"obvious_hint": true
+        ,"items":{
+            "platform_1":{
+                "description":"消息平台-1"
+                ,"hint":"消息平台-1配置"
+                ,"type": "object"
+                ,"items": {
+                    "platform_id":{
+                        "description":"消息平台id"
+                        ,"hint":"消息平台id"
+                        ,"type": "string"
+                    }
+                    ,"user_id":{
+                        "description":"客服人员id"
+                        ,"type": "list"
+                        ,"hint":"填写客服人员id"
+                    }
+                }
+            }
+            ,"platform_2":{
+                "description":"消息平台-2"
+                ,"hint":"消息平台-2配置"
+                ,"type": "object"
+                ,"items": {
+                    "platform_id":{
+                        "description":"消息平台id"
+                        ,"hint":"消息平台id"
+                        ,"type": "string"
+                    }
+                    ,"user_id":{
+                        "description":"客服人员id"
+                        ,"type": "list"
+                        ,"hint":"填写客服人员id"
+                    }
+                }
+            }
+            ,"platform_3":{
+                "description":"消息平台-3"
+                ,"hint":"消息平台-3配置"
+                ,"type": "object"
+                ,"items": {
+                    "platform_id":{
+                        "description":"消息平台id"
+                        ,"hint":"消息平台id"
+                        ,"type": "string"
+                    }
+                    ,"user_id":{
+                        "description":"客服人员id"
+                        ,"type": "list"
+                        ,"hint":"填写客服人员id"
+                    }
+                }
+            }
+            ,"platform_4":{
+                "description":"消息平台-4"
+                ,"hint":"消息平台-4配置"
+                ,"type": "object"
+                ,"items": {
+                    "platform_id":{
+                        "description":"消息平台id"
+                        ,"hint":"消息平台id"
+                        ,"type": "string"
+                    }
+                    ,"user_id":{
+                        "description":"客服人员id"
+                        ,"type": "list"
+                        ,"hint":"填写客服人员id"
+                    }
+                }
+            }
+            ,"platform_5":{
+                "description":"消息平台-5"
+                ,"hint":"消息平台-5配置"
+                ,"type": "object"
+                ,"items": {
+                    "platform_id":{
+                        "description":"消息平台id"
+                        ,"hint":"消息平台id"
+                        ,"type": "string"
+                    }
+                    ,"user_id":{
+                        "description":"客服人员id"
+                        ,"type": "list"
+                        ,"hint":"填写客服人员id"
+                    }
+                }
+            }
+            ,"platform_6":{
+                "description":"消息平台-6"
+                ,"hint":"消息平台-6配置"
+                ,"type": "object"
+                ,"items": {
+                    "platform_id":{
+                        "description":"消息平台id"
+                        ,"hint":"消息平台id"
+                        ,"type": "string"
+                    }
+                    ,"user_id":{
+                        "description":"客服人员id"
+                        ,"type": "list"
+                        ,"hint":"填写客服人员id"
+                    }
+                }
+            }
+        }
+    }
+}
